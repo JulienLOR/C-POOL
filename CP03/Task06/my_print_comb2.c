@@ -12,7 +12,8 @@ void my_putchar(char c)
     write(1, &c, 1);
 }
 
-int my_print_comb2(void) {
+int my_print_comb2(void) 
+{
     int d = 48;
     for (int i = 0; i < 100; i++) {
         for (int j = i + 1; j < 100; j++) {
